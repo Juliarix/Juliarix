@@ -1,0 +1,119 @@
+body {
+  font-family: 'Prociono', serif;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: #B0B0B0;
+}
+
+h1, h2, h3 {
+  color: #4D4D4D;
+  font-family: 'Prociono', serif;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+div {
+  display: block;
+}
+
+a {
+    color: rgb(69, 170, 242);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(242, 233, 152);
+}
+
+a:visited {
+    color: rgb(205, 79, 26);
+}
+
+a:visited:hover {
+   color: rgb(242, 233, 152);
+}
+
+.button {
+    background-color: #C3E2F6;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.headshot {
+  border-radius: 230px;
+}
+
+#media {
+  background-color: #818B9C;
+}
+
+#footer {
+  background-color: #818B9C;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ThaiMassage {
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dance {
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Photography {
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 50px auto; /* This automatically sets left/right margins */
+}
